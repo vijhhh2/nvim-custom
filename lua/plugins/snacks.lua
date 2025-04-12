@@ -11,10 +11,16 @@ return {
       -- refer to the configuration section below
     },
     indent = {},
-    lazygit =  {},
-    dashboard = { example = "chafa"}
+    lazygit = {},
+    dashboard = { example = "chafa" },
   },
   keys = {
-    { "<leader>gg", function() Snacks.lazygit() end, desc = "Lazygit" },
-  }
+    {
+      "<leader>gg",
+      function()
+        Snacks.lazygit()
+      end,
+      desc = "Lazygit",
+    },
+  },
 }

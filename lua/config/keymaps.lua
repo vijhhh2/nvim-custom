@@ -10,3 +10,5 @@ vim.keymap.set("i", "<leader>q", "<esc>:q<CR>", { desc = "Close nvim" })
 vim.keymap.set("n", "gl", function()
   vim.diagnostic.open_float()
 end, { desc = "Open diagnositics in float" })
+
+vim.keymap.set("n", "<leader>x", "<Cmd>%lua<Cr>", { desc = "Execute current lua buffer" })
